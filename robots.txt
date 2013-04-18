@@ -1,0 +1,8 @@
+User-agent: *
+
+Disallow: /admin/
+Disallow: /log/
+Disallow: /*.axd$ 
+Disallow: /html/guestbook_gid_G000297.html
+Disallow: /guestbook.aspx?gid=G000297
+

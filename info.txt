@@ -1,0 +1,15 @@
+
+# Contact info submission
+
+url: hujun64.com/
+site_owner: 胡珺
+address1: 上海市闸北区恒丰路600号(机电大厦)10楼1041室
+address2: 
+city: 上海市
+state: 上海市
+country: 中国
+postal_code: 200070
+phone_number: 13636542941
+display_email: hujun64@gmail.com
+site_name: 上海胡珺律师网
+site_description: 胡珺律师，上海市申企律师事务所专职律师，上海人，毕业于华东政法学院。自执业以来，先后办理了大量的经济和民商事案件，尤其在经济纠纷、婚姻家庭、劳动纠纷及人身损害赔偿领域积累了非常丰富的办案经验。从外来务工到公司白领，从弱势群体到平民百姓，本律师致力于维护每一个人的合法权益……

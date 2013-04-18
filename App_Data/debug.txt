@@ -1,0 +1,23 @@
+﻿IDbParameters dbParameters = CreateDbParameters();
+            dbParameters.Add("module_class_id", DbType.String).Value = moduleClassId;
+            dbParameters.Add("site_id", DbType.String).Value = Total.SiteId;
+            dbParameters.Add("sort_seq", DbType.Int32).Value = sortSeq;
+
+            
+			int i = AdoTemplate.ExecuteNonQuery(CommandType.Text, sql, dbParameters);
+			return AdoTemplate.DataSetCreate(CommandType.Text, sql);
+
+			DataSet ds = AdoTemplate.DataSetCreateWithParams(CommandType.Text, sql, dbParameters);
+foreach (DataRow row in ds.Tables[0].Rows)
+            {
+                introArticleIdDict.Add(row["id"].ToString(), (DateTime)row["last_mod"]);
+            }
+
+
+if (ds.Tables[0].Rows.Count>0)
+
+
+return (int)AdoTemplate.ExecuteScalar(CommandType.Text, sqlSb.ToString(), dbParameters);
+
+object objResult = AdoTemplate.ExecuteScalar(CommandType.Text, sqlSb.ToString(), dbParameters);
+if(objResult!=null&&!Convert.IsDBNull(objResult))
