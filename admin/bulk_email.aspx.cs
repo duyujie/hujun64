@@ -25,7 +25,7 @@ namespace com.hujun64.admin
                 sb.Append(MyMobileCode);
                 sb.Append("，胡律师会亲自帮您解答！");
 
-                ContentEditor.Value = sb.ToString();
+                ContentEditor.Text = sb.ToString();
             }
         }
 
@@ -58,12 +58,12 @@ namespace com.hujun64.admin
         protected void submit_all(object sender, System.EventArgs e)
         {
 
-            bulkEmail(noticeTitle.Text, ContentEditor.Value, false);
+            bulkEmail(noticeTitle.Text, ContentEditor.Text, false);
         }
         protected void submit_shanghai(object sender, System.EventArgs e)
         {
 
-            bulkEmail(noticeTitle.Text, ContentEditor.Value, true);
+            bulkEmail(noticeTitle.Text, ContentEditor.Text, true);
         }
         //通知咨询者
         private void bulkEmail(string title, string notice, bool isOnlyShanghai)

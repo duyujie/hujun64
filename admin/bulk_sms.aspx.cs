@@ -26,7 +26,7 @@ namespace com.hujun64.admin
                 sb.Append(MyMobileCode);
                 sb.Append("£¬");
                 sb.Append(Total.SiteUrl);
-                ContentEditor.Value = sb.ToString();
+                ContentEditor.Text = sb.ToString();
 
 
                 SpecMobileSend.Text = MyMobileCode + "," + MyMobileCode2;
@@ -95,17 +95,17 @@ namespace com.hujun64.admin
         protected void submit_all(object sender, System.EventArgs e)
         {
 
-            bulkSms(ContentEditor.Value, false, false);
+            bulkSms(ContentEditor.Text, false, false);
         }
         protected void submit_shanghai(object sender, System.EventArgs e)
         {
 
-            bulkSms(ContentEditor.Value, true, false);
+            bulkSms(ContentEditor.Text, true, false);
         }
         protected void submit_spec(object sender, System.EventArgs e)
         {
 
-            bulkSms(ContentEditor.Value, true, true);
+            bulkSms(ContentEditor.Text, true, true);
         }
 
 

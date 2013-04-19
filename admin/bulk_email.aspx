@@ -1,7 +1,6 @@
 <%@ Page Language="c#" AutoEventWireup="true" Inherits="com.hujun64.admin.bulk_email"
     CodeFile="bulk_email.aspx.cs" ValidateRequest="false" %>
 
-<%@ Register TagPrefix="FCKeditorV2" Namespace="FredCK.FCKeditorV2" Assembly="FredCK.FCKeditorV2" %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
 <head id="Head1" runat="server">
@@ -33,8 +32,8 @@
                     ÄÚÈÝ£º
                 </td>
                 <td>
-                    <FCKeditorV2:FCKeditor ID="ContentEditor" runat="server" Width="90%" Height="400px">
-                    </FCKeditorV2:FCKeditor>
+                 <asp:TextBox ID="ContentEditor" TextMode="MultiLine" runat="server" Rows="30" Columns="100" />
+                  
                 </td>
             </tr>
         </tbody>

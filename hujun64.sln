@@ -30,7 +30,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "hujun64", ".", "{591A1135-B
 		Enlist = Required
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedWebClassLibrary", "..\SharedWebClassLibrary\SharedWebClassLibrary.csproj", "{F346220C-CFC7-4A9B-AA3E-A659D82AE60E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hujun64Lib", "..\hujun64Lib\hujun64Lib.csproj", "{F346220C-CFC7-4A9B-AA3E-A659D82AE60E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
