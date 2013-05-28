@@ -43,7 +43,7 @@
                   { %>
                 <div class="DivLeftMenu">
                     <iframe name="frame_flzx" marginwidth="0" marginheight="0" width="100%" height="250px"
-                        src="<%=UtilHtml.GetFrameHtmlUrl(PageType.FRAME_FLZX,bigClassId, null)%> "
+                        src="frame_flzx.aspx"
                         frameborder="0"></iframe>
                 </div>
                 <%}
