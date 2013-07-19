@@ -47,6 +47,16 @@
             </td>
         </tr>
     </tbody>
+     <tbody>
+        <tr>
+            <td class="indexContactColLeft">
+                QQ
+            </td>
+            <td colspan="2">
+                <%=Total.Qq%>
+            </td>
+        </tr>
+    </tbody>
     <tbody>
         <tr>
             <td class="indexContactColLeft">

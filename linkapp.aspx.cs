@@ -75,10 +75,10 @@ namespace com.hujun64
                 txtValidateCode.Text = "";
                 UtilMail.SendMailAsync("申请友好链接", UtilHtml.BuildHref(link.link_site_url, link.link_site_name, link.link_site_name, true), Total.AdminMail, null);
             }
-            catch (SqlException)
+            catch (Exception ex)
             {
-                Response.Write("<script>javascript:alert('已经有相同网站名称或地址在申请中，请更换后重试！');</script>");
-                siteName.Focus();
+                Response.Write("<script>javascript:alert('" + ex.Message + "');</script>");
+                siteUrl.Focus();
                 return;
             }
 
