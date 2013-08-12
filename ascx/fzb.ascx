@@ -3,11 +3,10 @@
 <div style="float: none; clear: both; margin-top: 10px;">
 </div>
 <div align="center" class="DivFooter" style="margin-top: 20px">
-    <div class="nowidthModuleName">
-        <div class="moduleName_Left">
-            <a href="listitem.aspx?module_id=80" target="_blank" class="module">《上海法治报》专栏</a>
-        </div>
-        <div class="moduleName_Right">
+    <div class="nowidthModuleName"  align="center">
+        <div class="moduleName">
+            <a href="listitem.aspx?module_id=80" target="_blank" class="module">《上海法治报》胡珺律师专栏</a>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <a href="listitem.aspx?module_id=80" target="_blank" class="more">更多&gt;&gt;</a>
         </div>
         <br />
