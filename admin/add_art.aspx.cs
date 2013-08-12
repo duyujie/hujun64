@@ -572,7 +572,7 @@ namespace com.hujun64.admin
             }
             else
 
-                if ((this.moduleClassList.SelectedItem.Text.Contains("法治报") && !string.IsNullOrEmpty(uploadImgUrl)) || (arttitle.Text.Trim() != "" && ContentEditor.Text != ""))
+                if ((this.moduleClassList.SelectedItem.Text.Contains("法治报") && !string.IsNullOrEmpty(uploadImgUrl) &&  arttitle.Text.Trim() != "") || (arttitle.Text.Trim() != "" && ContentEditor.Text != ""))
                 {
                     Article article;
                     try
