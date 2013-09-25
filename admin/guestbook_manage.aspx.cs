@@ -72,7 +72,7 @@ namespace com.hujun64.admin
                 sb.Append("”<br /><br /><p>");
 
                 sb.Append("详情请访问： ");
-                sb.Append(UtilHtml.BuildHref(Total.CurrentSiteRootUrl + UtilHtml.GetHtmlUrl(guestbook.id, PageType.GUESTBOOK_TYPE)));
+                sb.Append(UtilHtml.BuildHref(Total.CurrentSiteRootUrl + UtilHtml.GetAspxUrl(guestbook.id, PageType.GUESTBOOK_TYPE)));
 
                 sb.Append("<br />本邮件为系统自动发送，请勿回复！");
                 sb.Append("</p>");

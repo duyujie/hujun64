@@ -105,6 +105,11 @@ namespace com.hujun64
 
             else
             {
+                if (string.IsNullOrEmpty(guesttitle.Text.Trim()) || string.IsNullOrEmpty(content.Text.Trim()))
+                {
+                    Response.Write("<script>javascript:alert('主题和内容不能为空！');</script>");
+                }
+
                 //重置验证码状态，防止重复提交
                 Session["VNum"] = null;
 

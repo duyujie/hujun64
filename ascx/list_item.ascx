@@ -30,27 +30,9 @@
                 </div>
             </div>
         </li>
-        <li>
-            <div class="DivProfile" align="left">
-                <div class="DivCertificate" style="margin-left: 50px">
-                    律师执业证号&nbsp;&nbsp;13101200810636819
-                </div>
-                <div class="DivProfileText" align="left">
-                    &nbsp;&nbsp;宫克律师，上海人，毕业于华东政法大学，法学学士，民商法硕士，<font color="blue">盈科（上海）律师事务所合伙人律师，《上海东方大律师》节目嘉宾，《老娘舅》嘉宾律师，上海电视大学特聘讲师</font>，上海律师协会会员。著有《论我国公司设立无效制度的现状及建议》、《安乐死探究》、《论暴力干涉婚姻自由罪的诉讼程序》等多篇学术论文。
-                    &nbsp;&nbsp;<a href="http://www.360counsel.com" target="_blank" class="more" title="宫克律师详细介绍">
-                        详细&gt;&gt</a>
-                </div>
-                <div class="DivProfileImg" align="center">
-                    <a href="http://www.360counsel.com" target="_blank">
-                        <img border="0" src="images/gk.png" alt="宫克律师" width="100" height="140" /></a>
-                </div>
-            </div>
-        </li>
     </ul>
 </div>
-<script language="javascript" type="text/javascript">
-    $("#divLawyerInfo").jScroll({ speed: 2000, scroll: 1 });
-</script>
+
 
 <div class="DivListItemContainer">
     <table cellspacing="0" cellpadding="0">
